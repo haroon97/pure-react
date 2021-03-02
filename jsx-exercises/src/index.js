@@ -1,4 +1,5 @@
 import React from 'react';
+import Greeting from './Greeting';
 import ReactDOM from 'react-dom';
 function MyThing() {
     return (
@@ -9,6 +10,7 @@ function MyThing() {
         //     React.createElement('li', {className: 'rating'}, '5 stars'),
         //     React.createElement('li', {className: 'isbn'}, '12-345678-910')))
         <div className="book">
+            <Greeting />
             <div className="title">
                 The title
             </div>
