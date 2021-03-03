@@ -1,0 +1,30 @@
+.tweet {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tweetContainer {
+    width: 100%;
+}
+
+.avatar {
+    width: 5%;
+    border-radius: 50%;
+}
+
+.tweetInfo {
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    position: relative;
+}
+
+.tweetText {
+    position: absolute;
+    bottom: 5%;
+}
